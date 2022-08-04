@@ -1,10 +1,9 @@
 var path,boy, leftBoundary,rightBoundary;
 var pathImg,boyImg;
-var i;
 
 function preload(){
   pathImg = loadImage('path.png');
-  boyImg = loadAnimation('jake1.png','jake2.png','jake3.png','jake4.png','jake5.png')
+  boyImg = loadImage('jake1.png','jake2.png','jake3.png','jake4.png','jake5.png')
 }
 
 function setup(){
